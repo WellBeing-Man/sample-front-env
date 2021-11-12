@@ -1,0 +1,11 @@
+{
+  "name": "sample-front-env",
+  "version": "1.0.0",
+  "description": "1. NPM\r 2. Webpack\r 3. Barbel\r 4. Linter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
