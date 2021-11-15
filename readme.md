@@ -5,5 +5,3 @@
 2. Webpack
 3. Barbel
 4. Linter
-
-### Branches
