@@ -17,6 +17,11 @@ module.exports = {
   module:{
     rules:[
       {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: "babel-loader",
+      },
+      {
         test: /\.(css|scss)$/,
         use:[
           process.env.NODE_ENV === "production" 
