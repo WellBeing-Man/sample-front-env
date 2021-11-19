@@ -1,6 +1,4 @@
 import { plus } from "./calculator.js";
-import "./app.css";
-import bg from "./bg.png";
 
 function answerDiv() {
   const div = document.createElement("div");
@@ -13,5 +11,3 @@ document
   .appendChild(
     answerDiv()
   )
-
-document.body.style.backgroundImage = `url(${bg})`;
