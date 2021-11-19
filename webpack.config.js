@@ -9,23 +9,6 @@ module.exports = {
     filename: "[name].js",
     path: path.resolve("./dist")
   },
-  module:{
-    rules:[
-      {
-        test: /\.css$/,
-        use:[
-          "style-loader",
-          "css-loader"
-        ]
-      },
-      {
-        test: /\.(png|jpg|svg|gif)$/,
-        loader: "url-loader",
-        options: {
-          name: "[name].[ext]?[hash]",
-          limit: 6000
-        }
-      }
-    ]
-  }
+    //todo loader 작성
+    //todo loader intall
 }
